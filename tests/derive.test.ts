@@ -188,7 +188,8 @@ describe("role scoping", () => {
   ];
 
   it("omits restricted fields from the McCulloch provider view", () => {
-    const v = selectProviderView(c, providerId("McCulloch"), { showCoverageAmount: false, items: {} })!;
+    // Patient contact is released by default; withhold it so the client's details count as restricted too.
+    const v = selectProviderView(c, providerId("McCulloch"), { showCoverageAmount: false, items: { contact: false } })!;
     const json = JSON.stringify(v);
     for (const word of forbiddenForProvider) expect(json, word).not.toContain(word);
     expect(v.coverage.amount).toBeNull();
@@ -196,6 +197,13 @@ describe("role scoping", () => {
     expect(v.requests.length).toBe(1);
     expect(v.questions[0].text).toMatch(/right shoulder arthroscopy/i);
     expect(v.bills.map((b) => b.label)).toEqual(["Orthopaedic"]);
+  });
+
+  it("releases the patient's contact details unless the firm withholds them", () => {
+    const v = selectProviderView(c, providerId("McCulloch"), { showCoverageAmount: false, items: {} })!;
+    expect(v.patient.contact?.phone).toContain("358-2214");
+    const withheld = selectProviderView(c, providerId("McCulloch"), { showCoverageAmount: false, items: { contact: false } })!;
+    expect(withheld.patient.contact).toBeNull();
   });
 
   it("shows the coverage amount only when the attorney allows it", () => {
