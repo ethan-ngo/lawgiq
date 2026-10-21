@@ -14,7 +14,7 @@ data
 # Python pipeline (not run in the container)
 .venv
 __pycache__
-*.py
+pipeline
 requirements.txt
 
 docs

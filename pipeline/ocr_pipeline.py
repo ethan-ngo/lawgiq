@@ -1,12 +1,12 @@
 """Pull every document on a Clio matter and extract per-page text into data/ocr/{document_id}.json.
 
-Clio access is READ ONLY: only GET requests are made (see clio_client.py).
+Clio access is READ ONLY: only GET requests are made (see pipeline/clio_client.py).
 
 Usage:
-  python ocr_pipeline.py                 # matter from MATTER_ID in .env, else search "Sapini"
-  python ocr_pipeline.py --limit 1       # smallest working run: one document
-  python ocr_pipeline.py --doc-id 123    # just these documents (repeatable)
-  python ocr_pipeline.py --force         # reprocess documents that already have output
+  python pipeline/ocr_pipeline.py                 # matter from MATTER_ID in .env, else search "Sapini"
+  python pipeline/ocr_pipeline.py --limit 1       # smallest working run: one document
+  python pipeline/ocr_pipeline.py --doc-id 123    # just these documents (repeatable)
+  python pipeline/ocr_pipeline.py --force         # reprocess documents that already have output
 """
 import argparse
 import json
@@ -20,7 +20,7 @@ from dotenv import load_dotenv
 import ocr_extract
 from clio_client import Clio
 
-ROOT = pathlib.Path(__file__).resolve().parent
+ROOT = pathlib.Path(__file__).resolve().parent.parent
 RAW_DIR = ROOT / "data" / "raw"
 OCR_DIR = ROOT / "data" / "ocr"
 DOC_FIELDS = "id,name,created_at,size,content_type"

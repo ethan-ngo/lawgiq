@@ -8,10 +8,10 @@ import type { MatterBundle, MatterSource, TaskLink, TaskLinks, TriageScore } fro
 
 /**
  * Reads the Python pipeline's output under data/ (gitignored):
- *   data/clio/matter.json   scripts/export_matter.py   raw Clio records (GET only)
- *   data/triage/*.json      scripts/triage.py          Jev importance + shareability per entry
- *   data/ocr/*.json         ocr_pipeline.py            per-page document text
- *   data/links/*.json       scripts/link_tasks.py      records related to each task, waiting-on
+ *   data/clio/matter.json   pipeline/export_matter.py   raw Clio records (GET only)
+ *   data/triage/*.json      pipeline/triage.py          Jev importance + shareability per entry
+ *   data/ocr/*.json         pipeline/ocr_pipeline.py            per-page document text
+ *   data/links/*.json       pipeline/link_tasks.py      records related to each task, waiting-on
  * Nothing about the case lives in this repo; run the scripts to populate data/.
  */
 
@@ -37,7 +37,7 @@ export class PipelineMatterSource implements MatterSource {
   async loadMatter(): Promise<MatterBundle> {
     const exportPath = path.join(this.dataDir, "clio", "matter.json");
     if (!existsSync(exportPath)) {
-      throw new Error(`No pipeline data at ${exportPath}. Run: python scripts/export_matter.py`);
+      throw new Error(`No pipeline data at ${exportPath}. Run: python pipeline/export_matter.py`);
     }
     const raw = JSON.parse(await readFile(exportPath, "utf8")) as ClioExport;
     const bundle = normaliseExport(raw);
@@ -88,5 +88,5 @@ export class PipelineMatterSource implements MatterSource {
 export async function runExport(root: string = process.cwd()): Promise<void> {
   const venv = path.join(root, ".venv", "bin", "python");
   const python = process.env.PIPELINE_PYTHON ?? (existsSync(venv) ? venv : "python3");
-  await promisify(execFile)(python, [path.join(root, "scripts", "export_matter.py")], { cwd: root, timeout: 120_000 });
+  await promisify(execFile)(python, [path.join(root, "pipeline", "export_matter.py")], { cwd: root, timeout: 120_000 });
 }

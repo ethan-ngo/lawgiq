@@ -122,12 +122,12 @@ export interface ClioDocument {
   folder: string;
   receivedAt: string;
   bytes?: number;
-  /** From ocr_pipeline.py, when the document has been processed. */
+  /** From pipeline/ocr_pipeline.py, when the document has been processed. */
   pageCount?: number;
   ocrExcerpt?: string;
 }
 
-/** One entry's Jev scores from scripts/triage.py (data/triage). */
+/** One entry's Jev scores from pipeline/triage.py (data/triage). */
 export interface TriageScore {
   /** 0.75 × impact + 0.25 × urgency, 0–1. */
   importance: number;
@@ -140,7 +140,7 @@ export interface TriageScore {
   documentDate: string | null;
 }
 
-/** How a linked record relates to a task (scripts/link_tasks.py). */
+/** How a linked record relates to a task (pipeline/link_tasks.py). */
 export type TaskRelation = "scheduled_as" | "produces" | "verifies" | "follow_up" | "context";
 
 /** One inferred link from a task to another Clio record; Jev confirmed it from code-found candidates. */
@@ -190,7 +190,7 @@ export interface MatterBundle {
   documents: ClioDocument[];
   /** Jev triage keyed by `${source_type}:${id}` (note, communication, task, calendar_entry, document). */
   triage: Record<string, TriageScore>;
-  /** Inferred task links keyed by task id (scripts/link_tasks.py); absent when the script hasn't run. */
+  /** Inferred task links keyed by task id (pipeline/link_tasks.py); absent when the script hasn't run. */
   taskLinks?: Record<string, TaskLinks>;
   /** Where this bundle came from. */
   origin: "clio";

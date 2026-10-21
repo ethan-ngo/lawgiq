@@ -1,6 +1,6 @@
 """One-shot Jev smoke test on a made-up example (no Clio).
 
-Usage: python scripts/jev_test.py
+Usage: python pipeline/jev_test.py
 Reads TYPESAFE_API_KEY (or JEV_API_KEY) from the environment or ./.env.
 """
 import json

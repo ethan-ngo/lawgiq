@@ -46,5 +46,5 @@ next-env.d.ts
 .venv/
 __pycache__/
 
-# Case documents, OCR text and triage output (regenerate with ocr_pipeline.py + scripts/triage.py)
+# Case documents, OCR text and triage output (regenerate with pipeline/ocr_pipeline.py + pipeline/triage.py)
 data/

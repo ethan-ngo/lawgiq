@@ -4,7 +4,7 @@ import { daysBetween, isoDay, type SourceFn } from "./util";
 
 /**
  * The firm's task board: every Clio task in one of four columns, each with the
- * records related to it (scripts/link_tasks.py). Separate from TaskBuckets
+ * records related to it (pipeline/link_tasks.py). Separate from TaskBuckets
  * (lib/derive/tasks.ts), which other views depend on.
  *
  * Column rules, in order: complete -> done; past due -> overdue (an overdue
@@ -36,7 +36,7 @@ export interface BoardTask {
   daysUntilDue: number | null;
   column: BoardColumn;
   waitingOn: { party: string; prob: number | null; basis: "jev" | "title" } | null;
-  /** Jev importance from scripts/triage.py, 0-1. */
+  /** Jev importance from pipeline/triage.py, 0-1. */
   importance: number | null;
   isStatuteOfLimitations: boolean;
   source: SourceRef;
@@ -45,7 +45,7 @@ export interface BoardTask {
 
 export interface TaskBoard {
   columns: Record<BoardColumn, BoardTask[]>;
-  /** True when scripts/link_tasks.py output was found. */
+  /** True when pipeline/link_tasks.py output was found. */
   linked: boolean;
 }
 

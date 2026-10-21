@@ -9,10 +9,10 @@ Clio has no links between tasks and other records, so they are inferred in two s
      follow-up / context). Jev only chooses among candidates code found; it cannot invent a link.
      The same call asks whether the next step waits on someone outside the firm, and who.
 
-Reads data/clio/matter.json (scripts/export_matter.py) and data/ocr (ocr_pipeline.py); no Clio calls.
+Reads data/clio/matter.json (pipeline/export_matter.py) and data/ocr (pipeline/ocr_pipeline.py); no Clio calls.
 Writes data/links/task_{id}.json. Cached; --force re-asks Jev.
 
-  python scripts/link_tasks.py [--force] [--task-id ID]
+  python pipeline/link_tasks.py [--force] [--task-id ID]
 """
 import argparse
 import html
@@ -27,7 +27,6 @@ from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timezone
 
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from triage import Jev, load_env  # noqa: E402  (same Jev client and .env loading as triage)
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -254,7 +253,7 @@ def main():
         sys.exit("Need TYPESAFE_API_KEY in .env")
     export = DATA / "clio" / "matter.json"
     if not export.exists():
-        sys.exit(f"No {export}. Run: python scripts/export_matter.py")
+        sys.exit(f"No {export}. Run: python pipeline/export_matter.py")
     m = json.loads(export.read_text(encoding="utf-8"))
     LINKS_DIR.mkdir(parents=True, exist_ok=True)
 
