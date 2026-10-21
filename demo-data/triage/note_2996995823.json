@@ -1,0 +1,23 @@
+{
+  "source_type": "note",
+  "source_id": "2996995823",
+  "date": "2024-03-28",
+  "title": "Lien and collateral source position",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.93,
+    "coverage_insurance": 0.01,
+    "settlement_negotiation": 0.03,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.01,
+    "routine_admin": 0.02
+  },
+  "top_category": "medical_bills",
+  "importance_score": 0.645,
+  "impact_score": 0.75,
+  "urgency_score": 0.33,
+  "shareable_prob": 0.09,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029506878",
+  "date": "2026-09-20",
+  "title": "Expert exchange served: neurology",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.06,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.81,
+    "client_contact": 0.0,
+    "routine_admin": 0.13
+  },
+  "top_category": "litigation_deadline",
+  "importance_score": 0.4408,
+  "impact_score": 0.48,
+  "urgency_score": 0.3233,
+  "shareable_prob": 0.38,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

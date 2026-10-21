@@ -1,0 +1,28 @@
+{
+  "source_type": "document",
+  "source_id": "21122293928",
+  "date": "2023-07-26",
+  "title": "04-medical-records__created__new-horizon-surgical-center-records-2023-07-26.pdf",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 1.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "injury_treatment",
+  "importance_score": 0.6417,
+  "impact_score": 0.84,
+  "urgency_score": 0.0467,
+  "shareable_prob": 0.56,
+  "shareable_status": "review",
+  "model": "jev-1.13.0",
+  "text_source": "ocr",
+  "uploaded_at": "2026-10-02T09:41:06-07:00",
+  "date_source": "document_text",
+  "date_text": "07/26/2023",
+  "date_confidence": 0.79
+}

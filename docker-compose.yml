@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    image: lawgiq:local
+    ports:
+      - "3000:3000"
+    environment:
+      # Optional: enables the AI digest. Leave unset and the rules engine writes it.
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    restart: unless-stopped

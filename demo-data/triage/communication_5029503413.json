@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029503413",
+  "date": "2024-01-13",
+  "title": "No-fault payment ledger enclosed",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.05,
+    "coverage_insurance": 0.81,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.13
+  },
+  "top_category": "coverage_insurance",
+  "importance_score": 0.535,
+  "impact_score": 0.7,
+  "urgency_score": 0.04,
+  "shareable_prob": 0.51,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

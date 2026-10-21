@@ -1,0 +1,15 @@
+{
+  "source_type": "document",
+  "source_id": "21122297828",
+  "name": "05-medical-bills__created__hudson-valley-radiology-itemized-bill-2023-08-08.pdf",
+  "matter_id": "1811195723",
+  "created_at": "2026-10-02T09:41:18-07:00",
+  "pages": [
+    {
+      "page": 1,
+      "text": "SYNTHETIC HACKATHON SAMPLE | NOT AN AUTHENTIC RECORD OR BILL\nHudson Valley Radiology Associates\nMid Rockland Imaging | Diagnostic Imaging\n18 Squadron Boulevard, New City, NY 10956\nItemized service charges\nPatient: Justin W. Sapini\nDOB: 12/21/1995\nAccident date: 04/23/2023\nStatement date: 08/08/2023\nMale | 5 ft 11 in | 195 lbs | Right-hand dominant | Age 27 at accident\nAddress at accident: 7 Valley Drive, Nanuet, NY 10954\nFinancial advisor, Northwestern Mutual, commission only; out of work since accident\nCoverage history: Progressive no-fault via own auto policy; later Medicaid\nFictional chart content for testing. Not for treatment, insurance submission, payment or legal use.\nMatter 25135-Sapini | Selected records, not an exhaustive list of visits.\nPage 1 of 1\nFictional hackathon charges. One line per documented service; no payment requested. No aggregate balance is printed.\nService date\nService / documentation\nCharge\n05/08/2023\n$1,800.00\nMRI cervical spine\n05/08/2023\n$1,800.00\nMRI lumbar spine\n05/24/2023\n$1,950.00\nMRI left shoulder\n05/24/2023\n$1,950.00\nMRI right shoulder\n07/03/2023\n$1,800.00\nMRI left knee\n07/03/2023\n$1,800.00\nMRI right knee\n08/08/2023\n$4,800.00\nMRI brain with DTI and volumetric analysis\n$0 lines are included services or documentation only. Duplicate chart copies do not create additional charges.",
+      "method": "text_layer",
+      "char_count": 1333
+    }
+  ]
+}

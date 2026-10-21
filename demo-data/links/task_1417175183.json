@@ -1,0 +1,44 @@
+{
+  "task_id": "1417175183",
+  "task_name": "Limitations Date",
+  "waiting": {
+    "prob": 0.12,
+    "party": null
+  },
+  "candidates_considered": 4,
+  "links": [
+    {
+      "type": "calendar_entry",
+      "id": "5061496703",
+      "relation": "scheduled_as",
+      "related_prob": 0.89,
+      "score": 0.32,
+      "signals": [
+        "topic: three-year, statute, suit",
+        "date: 0 days apart"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996996183",
+      "relation": "context",
+      "related_prob": 0.81,
+      "score": 0.192,
+      "signals": [
+        "topic: shortened, corporation, benefit"
+      ]
+    },
+    {
+      "type": "document",
+      "id": "21122282348",
+      "relation": "context",
+      "related_prob": 0.8,
+      "score": 0.153,
+      "signals": [
+        "topic: statute, suit, limitations"
+      ],
+      "page": 7
+    }
+  ],
+  "model": "jev-latest"
+}

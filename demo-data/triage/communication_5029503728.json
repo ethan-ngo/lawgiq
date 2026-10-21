@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029503728",
+  "date": "2024-03-28",
+  "title": "Social Security Disability filing acknowledged",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.13,
+    "routine_admin": 0.87
+  },
+  "top_category": "routine_admin",
+  "importance_score": 0.214,
+  "impact_score": 0.1775,
+  "urgency_score": 0.3233,
+  "shareable_prob": 0.67,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

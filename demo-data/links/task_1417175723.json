@@ -1,0 +1,122 @@
+{
+  "task_id": "1417175723",
+  "task_name": "Attend orthopedic IME with client",
+  "waiting": {
+    "prob": 0.13,
+    "party": null
+  },
+  "candidates_considered": 10,
+  "links": [
+    {
+      "type": "note",
+      "id": "2996996078",
+      "relation": "scheduled_as",
+      "related_prob": 0.96,
+      "score": 0.487,
+      "signals": [
+        "topic: attended, emmanuel, watchdog",
+        "date: 0 days apart"
+      ]
+    },
+    {
+      "type": "calendar_entry",
+      "id": "5061496538",
+      "relation": "scheduled_as",
+      "related_prob": 0.96,
+      "score": 0.464,
+      "signals": [
+        "topic: emmanuel, watchdog, orthopedic",
+        "date: 0 days apart"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996996393",
+      "relation": "produces",
+      "related_prob": 0.95,
+      "score": 0.233,
+      "signals": [
+        "topic: attended, hostin",
+        "date: 11 days apart"
+      ]
+    },
+    {
+      "type": "communication",
+      "id": "5029506683",
+      "relation": "produces",
+      "related_prob": 0.95,
+      "score": 0.22,
+      "signals": [
+        "topic: emmanuel, hostin",
+        "date: 12 days apart"
+      ]
+    },
+    {
+      "type": "communication",
+      "id": "5029506473",
+      "relation": "follow_up",
+      "related_prob": 0.93,
+      "score": 0.259,
+      "signals": [
+        "topic: attended, watchdog",
+        "date: 10 days apart"
+      ]
+    },
+    {
+      "type": "communication",
+      "id": "5029505633",
+      "relation": "follow_up",
+      "related_prob": 0.91,
+      "score": 0.295,
+      "signals": [
+        "topic: attend, watchdog",
+        "date: 5 days apart"
+      ]
+    },
+    {
+      "type": "document",
+      "id": "21122307623",
+      "relation": "produces",
+      "related_prob": 0.83,
+      "score": 0.226,
+      "signals": [
+        "topic: emmanuel, orthopedic, hostin"
+      ],
+      "page": 1
+    },
+    {
+      "type": "document",
+      "id": "21122307623",
+      "relation": "produces",
+      "related_prob": 0.74,
+      "score": 0.226,
+      "signals": [
+        "topic: emmanuel, orthopedic, hostin"
+      ],
+      "page": 4
+    },
+    {
+      "type": "task",
+      "id": "1417175738",
+      "relation": "context",
+      "related_prob": 0.6,
+      "score": 0.388,
+      "signals": [
+        "topic: attended, attend, watchdog",
+        "date: 5 days apart"
+      ]
+    },
+    {
+      "type": "calendar_entry",
+      "id": "5061496583",
+      "relation": "context",
+      "related_prob": 0.58,
+      "score": 0.202,
+      "signals": [
+        "topic: watchdog",
+        "date: 5 days apart"
+      ]
+    }
+  ],
+  "model": "jev-latest"
+}

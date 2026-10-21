@@ -1,0 +1,81 @@
+{
+  "task_id": "1417175528",
+  "task_name": "By medical provider: SportsCare Physical Therapy of New York - Ongoing treatment notes",
+  "waiting": {
+    "prob": 0.85,
+    "party": "SportsCare Physical Therapy of New York"
+  },
+  "candidates_considered": 10,
+  "links": [
+    {
+      "type": "calendar_entry",
+      "id": "5061496898",
+      "relation": "follow_up",
+      "related_prob": 0.79,
+      "score": 0.494,
+      "signals": [
+        "contact: SportsCare Physical Therapy of New York",
+        "topic: notes, sportscare, therapy",
+        "date: 4 days apart"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996995673",
+      "relation": "context",
+      "related_prob": 0.65,
+      "score": 0.358,
+      "signals": [
+        "contact: SportsCare Physical Therapy of New York",
+        "topic: notes, sportscare, therapy"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996996228",
+      "relation": "context",
+      "related_prob": 0.6,
+      "score": 0.365,
+      "signals": [
+        "contact: SportsCare Physical Therapy of New York",
+        "topic: requests, sportscare, therapy"
+      ]
+    },
+    {
+      "type": "calendar_entry",
+      "id": "5061496943",
+      "relation": "scheduled_as",
+      "related_prob": 0.55,
+      "score": 0.457,
+      "signals": [
+        "contact: SportsCare Physical Therapy of New York",
+        "topic: sportscare, therapy, physical",
+        "date: 3 days apart"
+      ]
+    },
+    {
+      "type": "document",
+      "id": "21122295803",
+      "relation": "produces",
+      "related_prob": 0.51,
+      "score": 0.337,
+      "signals": [
+        "contact: SportsCare Physical Therapy of New York",
+        "topic: sportscare, therapy, physical"
+      ],
+      "page": 1
+    },
+    {
+      "type": "expense",
+      "id": "8139924593",
+      "relation": "produces",
+      "related_prob": 0.5,
+      "score": 0.337,
+      "signals": [
+        "contact: SportsCare Physical Therapy of New York",
+        "topic: sportscare, therapy, physical"
+      ]
+    }
+  ],
+  "model": "jev-latest"
+}

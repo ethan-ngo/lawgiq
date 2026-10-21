@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029509593",
+  "date": "2025-03-01",
+  "title": "Medicaid lien notice",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.97,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.03,
+    "routine_admin": 0.0
+  },
+  "top_category": "medical_bills",
+  "importance_score": 0.5683,
+  "impact_score": 0.75,
+  "urgency_score": 0.0233,
+  "shareable_prob": 0.34,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

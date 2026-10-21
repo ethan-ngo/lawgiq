@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029500428",
+  "date": "2023-05-07",
+  "title": "Photographs of my paperwork",
+  "category_probs": {
+    "incident_liability": 0.3,
+    "injury_treatment": 0.03,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.01,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.44,
+    "routine_admin": 0.22
+  },
+  "top_category": "client_contact",
+  "importance_score": 0.4229,
+  "impact_score": 0.475,
+  "urgency_score": 0.2667,
+  "shareable_prob": 0.45,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

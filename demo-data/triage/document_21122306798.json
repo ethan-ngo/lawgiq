@@ -1,0 +1,28 @@
+{
+  "source_type": "document",
+  "source_id": "21122306798",
+  "date": "2026-03-24",
+  "title": "08-experts__doc-55__expert-exchange-neuro-tsao.pdf",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.06,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.94,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "litigation_deadline",
+  "importance_score": 0.561,
+  "impact_score": 0.5925,
+  "urgency_score": 0.4667,
+  "shareable_prob": 0.17,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0",
+  "text_source": "ocr",
+  "uploaded_at": "2026-10-02T09:41:48-07:00",
+  "date_source": "document_text",
+  "date_text": "March 24, 2026",
+  "date_confidence": 0.92
+}

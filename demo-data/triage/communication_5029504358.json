@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029504358",
+  "date": "2025-12-06",
+  "title": "Records confirmation, account 4471-SAPINI",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.01,
+    "medical_bills": 0.09,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.9
+  },
+  "top_category": "routine_admin",
+  "importance_score": 0.1517,
+  "impact_score": 0.09,
+  "urgency_score": 0.3367,
+  "shareable_prob": 0.79,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

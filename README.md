@@ -44,6 +44,23 @@ npm test                                    # derive, headline and task-board te
 
 On Windows use `.venv\Scripts\python` in place of `.venv/bin/python`. `python scripts/jev_test.py` is an optional one-call Jev smoke test.
 
+## Docker
+
+A read-only demo image with the sample matter in `demo-data/` baked in. It never calls Clio (no Python, no Clio keys), and SQLite lives in `/tmp`, so every restart starts clean.
+
+```bash
+docker compose up --build                   # open http://localhost:3000
+```
+
+`GET /api/health` returns 200 once the data is in place; Docker's `HEALTHCHECK` uses it. Set `ANTHROPIC_API_KEY` in your shell to enable the AI digest in the container.
+
+## CI/CD
+
+`.github/workflows/ci.yml` runs on every pull request and push to `main`:
+
+1. **check**: `npm ci`, lint, `tsc --noEmit`, and the vitest suite against `demo-data/`.
+2. **image**: builds the Docker image (with GitHub Actions layer caching). On `main` it pushes to `ghcr.io/<owner>/lawgiq`, tagged `latest` and `sha-<commit>`.
+
 ## The app
 
 A visual digest of the matter at `/` (the Front Page), with a Firm, Medical provider and Client view cut by a role-scoped access layer on the server.

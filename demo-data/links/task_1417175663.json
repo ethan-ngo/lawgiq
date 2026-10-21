@@ -1,0 +1,45 @@
+{
+  "task_id": "1417175663",
+  "task_name": "Serve letter of representation on Claims Service Bureau",
+  "waiting": {
+    "prob": 0.17,
+    "party": null
+  },
+  "candidates_considered": 10,
+  "links": [
+    {
+      "type": "communication",
+      "id": "5029500953",
+      "relation": "produces",
+      "related_prob": 0.91,
+      "score": 0.391,
+      "signals": [
+        "topic: representation, sir068120, letter",
+        "date: 1 day apart"
+      ]
+    },
+    {
+      "type": "communication",
+      "id": "5029501073",
+      "relation": "follow_up",
+      "related_prob": 0.85,
+      "score": 0.754,
+      "signals": [
+        "contact: Claims Service Bureau",
+        "topic: representation, administered, behalf",
+        "date: 8 days apart"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996996183",
+      "relation": "context",
+      "related_prob": 0.5,
+      "score": 0.167,
+      "signals": [
+        "date: 5 days apart"
+      ]
+    }
+  ],
+  "model": "jev-latest"
+}

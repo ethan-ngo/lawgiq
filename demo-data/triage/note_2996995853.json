@@ -1,0 +1,23 @@
+{
+  "source_type": "note",
+  "source_id": "2996995853",
+  "date": "2024-04-12",
+  "title": "Demand package served on Claims Service Bureau",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.01,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.99,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "settlement_negotiation",
+  "importance_score": 0.8248,
+  "impact_score": 0.9975,
+  "urgency_score": 0.3067,
+  "shareable_prob": 0.06,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

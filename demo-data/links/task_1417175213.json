@@ -1,0 +1,67 @@
+{
+  "task_id": "1417175213",
+  "task_name": "By medical provider: McCulloch Orthopaedic Surgical Services, PLLC - Updated records and right shoulder surgical date",
+  "waiting": {
+    "prob": 0.85,
+    "party": "McCulloch Orthopaedic Surgical Services, PLLC"
+  },
+  "candidates_considered": 10,
+  "links": [
+    {
+      "type": "calendar_entry",
+      "id": "5061496718",
+      "relation": "follow_up",
+      "related_prob": 0.91,
+      "score": 0.43,
+      "signals": [
+        "contact: McCulloch Orthopaedic Surgical Services, PLLC",
+        "topic: requests, written, recommended"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996996423",
+      "relation": "follow_up",
+      "related_prob": 0.9,
+      "score": 0.324,
+      "signals": [
+        "contact: McCulloch Orthopaedic Surgical Services, PLLC",
+        "topic: recommended, mcculloch, orthopaedic"
+      ]
+    },
+    {
+      "type": "document",
+      "id": "21122291228",
+      "relation": "produces",
+      "related_prob": 0.58,
+      "score": 0.418,
+      "signals": [
+        "contact: McCulloch Orthopaedic Surgical Services, PLLC",
+        "topic: pllc, recommended, mcculloch"
+      ],
+      "page": 8
+    },
+    {
+      "type": "note",
+      "id": "2996995478",
+      "relation": "context",
+      "related_prob": 0.57,
+      "score": 0.26,
+      "signals": [
+        "contact: McCulloch Orthopaedic Surgical Services, PLLC"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996996228",
+      "relation": "context",
+      "related_prob": 0.5,
+      "score": 0.315,
+      "signals": [
+        "contact: McCulloch Orthopaedic Surgical Services, PLLC",
+        "topic: requests, three, mcculloch"
+      ]
+    }
+  ],
+  "model": "jev-latest"
+}

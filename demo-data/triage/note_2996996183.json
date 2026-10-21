@@ -1,0 +1,23 @@
+{
+  "source_type": "note",
+  "source_id": "2996996183",
+  "date": "2023-05-09",
+  "title": "File opened and claim set up",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.5,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.3,
+    "client_contact": 0.0,
+    "routine_admin": 0.2
+  },
+  "top_category": "coverage_insurance",
+  "importance_score": 0.8429,
+  "impact_score": 0.795,
+  "urgency_score": 0.9867,
+  "shareable_prob": 0.29,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

@@ -1,0 +1,23 @@
+{
+  "source_type": "note",
+  "source_id": "2996996903",
+  "date": "2025-10-24",
+  "title": "Capiola follow-up: surgery still recommended",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 1.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "injury_treatment",
+  "importance_score": 0.6265,
+  "impact_score": 0.7175,
+  "urgency_score": 0.3533,
+  "shareable_prob": 0.67,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

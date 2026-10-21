@@ -1,0 +1,23 @@
+{
+  "source_type": "note",
+  "source_id": "2996997203",
+  "date": "2024-10-19",
+  "title": "Discovery served both ways",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 1.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "litigation_deadline",
+  "importance_score": 0.2673,
+  "impact_score": 0.3175,
+  "urgency_score": 0.1167,
+  "shareable_prob": 0.24,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

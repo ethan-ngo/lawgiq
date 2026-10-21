@@ -1,0 +1,23 @@
+{
+  "source_type": "task",
+  "source_id": "1417175708",
+  "date": "2023-06-02",
+  "title": "Catalogue client's own document stack",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.6,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.01,
+    "routine_admin": 0.39
+  },
+  "top_category": "injury_treatment",
+  "importance_score": 0.4344,
+  "impact_score": 0.5025,
+  "urgency_score": 0.23,
+  "shareable_prob": 0.53,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

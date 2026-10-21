@@ -1,0 +1,23 @@
+{
+  "source_type": "note",
+  "source_id": "2996996123",
+  "date": "2026-09-27",
+  "title": "Client call: treatment status",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.38,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.62,
+    "routine_admin": 0.0
+  },
+  "top_category": "client_contact",
+  "importance_score": 0.2765,
+  "impact_score": 0.2575,
+  "urgency_score": 0.3333,
+  "shareable_prob": 0.42,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

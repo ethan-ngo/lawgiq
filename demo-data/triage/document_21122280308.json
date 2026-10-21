@@ -1,0 +1,28 @@
+{
+  "source_type": "document",
+  "source_id": "21122280308",
+  "date": "2023-05-07",
+  "title": "01-intake__created__hipaa-authorization.pdf",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.17,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.83
+  },
+  "top_category": "routine_admin",
+  "importance_score": 0.2056,
+  "impact_score": 0.2175,
+  "urgency_score": 0.17,
+  "shareable_prob": 0.66,
+  "shareable_status": "review",
+  "model": "jev-1.13.0",
+  "text_source": "ocr",
+  "uploaded_at": "2026-10-02T09:40:21-07:00",
+  "date_source": "document_text",
+  "date_text": "May 7, 2023",
+  "date_confidence": 1.0
+}

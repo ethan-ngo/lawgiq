@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029501778",
+  "date": "2023-07-27",
+  "title": "Records request: emergency department chart",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.09,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.91
+  },
+  "top_category": "routine_admin",
+  "importance_score": 0.3167,
+  "impact_score": 0.31,
+  "urgency_score": 0.3367,
+  "shareable_prob": 0.88,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

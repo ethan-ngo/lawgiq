@@ -1,0 +1,43 @@
+{
+  "task_id": "1417175573",
+  "task_name": "Obtain updated employment and commission records from client",
+  "waiting": {
+    "prob": 0.95,
+    "party": "Justin Sapini"
+  },
+  "candidates_considered": 10,
+  "links": [
+    {
+      "type": "communication",
+      "id": "5029505768",
+      "relation": "follow_up",
+      "related_prob": 0.96,
+      "score": 0.418,
+      "signals": [
+        "topic: rests, single, need",
+        "date: 5 days apart"
+      ]
+    },
+    {
+      "type": "calendar_entry",
+      "id": "5061496778",
+      "relation": "scheduled_as",
+      "related_prob": 0.9,
+      "score": 0.193,
+      "signals": [
+        "topic: wage, statements, updated"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996997293",
+      "relation": "context",
+      "related_prob": 0.8,
+      "score": 0.137,
+      "signals": [
+        "topic: rests, wage, years"
+      ]
+    }
+  ],
+  "model": "jev-latest"
+}

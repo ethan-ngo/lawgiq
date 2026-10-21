@@ -1,0 +1,28 @@
+{
+  "source_type": "document",
+  "source_id": "21122287838",
+  "date": "2025-11-02",
+  "title": "03-discovery__doc-43__subpoena-kyle-pullano.pdf",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 1.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "litigation_deadline",
+  "importance_score": 0.8117,
+  "impact_score": 0.75,
+  "urgency_score": 0.9967,
+  "shareable_prob": 0.16,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0",
+  "text_source": "ocr",
+  "uploaded_at": "2026-10-02T09:40:45-07:00",
+  "date_source": "document_text",
+  "date_text": "November 2, 2025",
+  "date_confidence": 0.96
+}

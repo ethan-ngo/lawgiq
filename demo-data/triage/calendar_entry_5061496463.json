@@ -1,0 +1,23 @@
+{
+  "source_type": "calendar_entry",
+  "source_id": "5061496463",
+  "date": "2023-07-26T00:30:00-07:00",
+  "title": "Left shoulder arthroscopy, New Horizon Surgical Center",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 1.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "injury_treatment",
+  "importance_score": 0.9071,
+  "impact_score": 0.995,
+  "urgency_score": 0.6433,
+  "shareable_prob": 0.93,
+  "shareable_status": "share",
+  "model": "jev-1.13.0"
+}

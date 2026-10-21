@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029509203",
+  "date": "2024-10-07",
+  "title": "Post-operative check-in with the client",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.74,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.26,
+    "routine_admin": 0.0
+  },
+  "top_category": "injury_treatment",
+  "importance_score": 0.4892,
+  "impact_score": 0.54,
+  "urgency_score": 0.3367,
+  "shareable_prob": 0.83,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

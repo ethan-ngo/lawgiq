@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029507313",
+  "date": "2026-09-25",
+  "title": "Call to the client re the second surgery",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.56,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.43,
+    "routine_admin": 0.01
+  },
+  "top_category": "injury_treatment",
+  "importance_score": 0.2881,
+  "impact_score": 0.2675,
+  "urgency_score": 0.35,
+  "shareable_prob": 0.84,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

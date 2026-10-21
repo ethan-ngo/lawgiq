@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029508978",
+  "date": "2026-09-08",
+  "title": "RE: Coverage confirmation, claim SIR068120",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 1.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "coverage_insurance",
+  "importance_score": 0.5575,
+  "impact_score": 0.74,
+  "urgency_score": 0.01,
+  "shareable_prob": 0.44,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

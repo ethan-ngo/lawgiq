@@ -1,0 +1,23 @@
+{
+  "source_type": "task",
+  "source_id": "1417175633",
+  "date": "2023-11-09",
+  "title": "Pay Montefiore Nyack records invoice and re-request",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.01,
+    "medical_bills": 0.03,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.96
+  },
+  "top_category": "routine_admin",
+  "importance_score": 0.2196,
+  "impact_score": 0.175,
+  "urgency_score": 0.3533,
+  "shareable_prob": 0.8,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

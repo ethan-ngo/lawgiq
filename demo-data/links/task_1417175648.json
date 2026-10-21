@@ -1,0 +1,107 @@
+{
+  "task_id": "1417175648",
+  "task_name": "Request operative report, left shoulder",
+  "waiting": {
+    "prob": 0.53,
+    "party": "New Horizon Surgical Center, LLC"
+  },
+  "candidates_considered": 10,
+  "links": [
+    {
+      "type": "communication",
+      "id": "5029502963",
+      "relation": "follow_up",
+      "related_prob": 0.94,
+      "score": 0.591,
+      "signals": [
+        "contact: New Horizon Surgical Center, LLC",
+        "topic: horizon, operative, center",
+        "date: 10 days apart"
+      ]
+    },
+    {
+      "type": "communication",
+      "id": "5029502828",
+      "relation": "follow_up",
+      "related_prob": 0.91,
+      "score": 0.518,
+      "signals": [
+        "topic: anaesthesia, operative, arthroscopy",
+        "date: 0 days apart"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996995388",
+      "relation": "produces",
+      "related_prob": 0.86,
+      "score": 0.86,
+      "signals": [
+        "contact: New Horizon Surgical Center, LLC",
+        "topic: anaesthesia, horizon, operative",
+        "date: 0 days apart"
+      ]
+    },
+    {
+      "type": "document",
+      "id": "21122293928",
+      "relation": "produces",
+      "related_prob": 0.85,
+      "score": 0.606,
+      "signals": [
+        "contact: New Horizon Surgical Center, LLC",
+        "topic: horizon, operative, center"
+      ],
+      "page": 1
+    },
+    {
+      "type": "calendar_entry",
+      "id": "5061496463",
+      "relation": "scheduled_as",
+      "related_prob": 0.84,
+      "score": 0.591,
+      "signals": [
+        "contact: New Horizon Surgical Center, LLC",
+        "topic: horizon, center, arthroscopy",
+        "date: 6 days apart"
+      ]
+    },
+    {
+      "type": "communication",
+      "id": "5029502468",
+      "relation": "context",
+      "related_prob": 0.81,
+      "score": 0.548,
+      "signals": [
+        "contact: New Horizon Surgical Center, LLC",
+        "topic: horizon, center, arthroscopy",
+        "date: 12 days apart"
+      ]
+    },
+    {
+      "type": "document",
+      "id": "21122291228",
+      "relation": "produces",
+      "related_prob": 0.64,
+      "score": 0.606,
+      "signals": [
+        "contact: New Horizon Surgical Center, LLC",
+        "topic: horizon, operative, center"
+      ],
+      "page": 4
+    },
+    {
+      "type": "document",
+      "id": "21122293928",
+      "relation": "context",
+      "related_prob": 0.64,
+      "score": 0.606,
+      "signals": [
+        "contact: New Horizon Surgical Center, LLC",
+        "topic: horizon, operative, center"
+      ],
+      "page": 3
+    }
+  ],
+  "model": "jev-latest"
+}

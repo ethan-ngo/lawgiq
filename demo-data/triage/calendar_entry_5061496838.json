@@ -1,0 +1,23 @@
+{
+  "source_type": "calendar_entry",
+  "source_id": "5061496838",
+  "date": "2025-04-15T03:00:00-07:00",
+  "title": "Compliance conference",
+  "category_probs": {
+    "incident_liability": 0.02,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.08,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.06,
+    "client_contact": 0.0,
+    "routine_admin": 0.84
+  },
+  "top_category": "routine_admin",
+  "importance_score": 0.2863,
+  "impact_score": 0.165,
+  "urgency_score": 0.65,
+  "shareable_prob": 0.35,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

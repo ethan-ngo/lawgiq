@@ -1,0 +1,23 @@
+{
+  "source_type": "note",
+  "source_id": "2996995208",
+  "date": "2023-05-23",
+  "title": "Mechanism: the client has given three different accounts",
+  "category_probs": {
+    "incident_liability": 1.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "incident_liability",
+  "importance_score": 0.5665,
+  "impact_score": 0.6475,
+  "urgency_score": 0.3233,
+  "shareable_prob": 0.07,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

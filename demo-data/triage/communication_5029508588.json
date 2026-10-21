@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029508588",
+  "date": "2025-12-23",
+  "title": "Year-end check-in",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.02,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.36,
+    "routine_admin": 0.62
+  },
+  "top_category": "routine_admin",
+  "importance_score": 0.1854,
+  "impact_score": 0.135,
+  "urgency_score": 0.3367,
+  "shareable_prob": 0.69,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

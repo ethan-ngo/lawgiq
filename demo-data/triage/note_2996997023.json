@@ -1,0 +1,23 @@
+{
+  "source_type": "note",
+  "source_id": "2996997023",
+  "date": "2026-01-12",
+  "title": "Case posture at the turn of the year",
+  "category_probs": {
+    "incident_liability": 0.69,
+    "injury_treatment": 0.02,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.02,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.07,
+    "client_contact": 0.0,
+    "routine_admin": 0.2
+  },
+  "top_category": "incident_liability",
+  "importance_score": 0.5081,
+  "impact_score": 0.5675,
+  "urgency_score": 0.33,
+  "shareable_prob": 0.1,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

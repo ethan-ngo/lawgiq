@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029500533",
+  "date": "2023-05-08",
+  "title": "Retainer agreement and HIPAA authorization",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.19,
+    "routine_admin": 0.81
+  },
+  "top_category": "routine_admin",
+  "importance_score": 0.1396,
+  "impact_score": 0.075,
+  "urgency_score": 0.3333,
+  "shareable_prob": 0.36,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

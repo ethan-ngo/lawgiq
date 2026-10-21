@@ -1,0 +1,23 @@
+{
+  "source_type": "task",
+  "source_id": "1417175663",
+  "date": "2023-05-14",
+  "title": "Serve letter of representation on Claims Service Bureau",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.28,
+    "settlement_negotiation": 0.23,
+    "litigation_deadline": 0.16,
+    "client_contact": 0.0,
+    "routine_admin": 0.33
+  },
+  "top_category": "routine_admin",
+  "importance_score": 0.6423,
+  "impact_score": 0.6575,
+  "urgency_score": 0.5967,
+  "shareable_prob": 0.44,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

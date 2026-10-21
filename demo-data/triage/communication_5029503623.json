@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029503623",
+  "date": "2024-02-17",
+  "title": "Medicaid coverage and what a lien means",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.66,
+    "coverage_insurance": 0.14,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.2,
+    "routine_admin": 0.0
+  },
+  "top_category": "medical_bills",
+  "importance_score": 0.6033,
+  "impact_score": 0.75,
+  "urgency_score": 0.1633,
+  "shareable_prob": 0.26,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

@@ -1,0 +1,55 @@
+{
+  "task_id": "1417175558",
+  "task_name": "Reconcile chiropractic and PT ledgers against CPT lines",
+  "waiting": {
+    "prob": 0.9,
+    "party": "Advanced Rockland Chiropractic Offices, P.C."
+  },
+  "candidates_considered": 6,
+  "links": [
+    {
+      "type": "note",
+      "id": "2996996543",
+      "relation": "context",
+      "related_prob": 0.94,
+      "score": 0.492,
+      "signals": [
+        "topic: largest, components, reconciled",
+        "date: 10 days apart"
+      ]
+    },
+    {
+      "type": "communication",
+      "id": "5029507223",
+      "relation": "follow_up",
+      "related_prob": 0.94,
+      "score": 0.228,
+      "signals": [
+        "topic: reconciled, figure, specials",
+        "date: 9 days apart"
+      ]
+    },
+    {
+      "type": "task",
+      "id": "1417175438",
+      "relation": "follow_up",
+      "related_prob": 0.92,
+      "score": 0.229,
+      "signals": [
+        "topic: figure, specials, chiropractic",
+        "date: 2 days apart"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996996933",
+      "relation": "context",
+      "related_prob": 0.75,
+      "score": 0.133,
+      "signals": [
+        "topic: figure, ledgers, specials"
+      ]
+    }
+  ],
+  "model": "jev-latest"
+}

@@ -1,0 +1,23 @@
+{
+  "source_type": "task",
+  "source_id": "1417175753",
+  "date": "2024-03-28",
+  "title": "File Medicaid lien acknowledgment",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 1.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "medical_bills",
+  "importance_score": 0.6817,
+  "impact_score": 0.75,
+  "urgency_score": 0.4767,
+  "shareable_prob": 0.5,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

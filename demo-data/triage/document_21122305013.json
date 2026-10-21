@@ -1,0 +1,28 @@
+{
+  "source_type": "document",
+  "source_id": "21122305013",
+  "date": "2025-04-16",
+  "title": "06-correspondence__doc-12__letter-to-judge.pdf",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.92,
+    "client_contact": 0.0,
+    "routine_admin": 0.08
+  },
+  "top_category": "litigation_deadline",
+  "importance_score": 0.1129,
+  "impact_score": 0.025,
+  "urgency_score": 0.3767,
+  "shareable_prob": 0.52,
+  "shareable_status": "review",
+  "model": "jev-1.13.0",
+  "text_source": "ocr",
+  "uploaded_at": "2026-10-02T09:41:42-07:00",
+  "date_source": "document_text",
+  "date_text": "April 16, 2025",
+  "date_confidence": 1.0
+}

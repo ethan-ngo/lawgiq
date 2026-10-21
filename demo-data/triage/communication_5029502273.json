@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029502273",
+  "date": "2023-07-12",
+  "title": "Pre-operative scheduling, left shoulder",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.21,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.79
+  },
+  "top_category": "routine_admin",
+  "importance_score": 0.496,
+  "impact_score": 0.4425,
+  "urgency_score": 0.6567,
+  "shareable_prob": 0.82,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

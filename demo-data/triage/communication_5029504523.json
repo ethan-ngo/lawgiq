@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029504523",
+  "date": "2026-05-05",
+  "title": "Third request: updated treatment notes",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.28,
+    "medical_bills": 0.05,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.02,
+    "routine_admin": 0.65
+  },
+  "top_category": "routine_admin",
+  "importance_score": 0.1338,
+  "impact_score": 0.065,
+  "urgency_score": 0.34,
+  "shareable_prob": 0.83,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

@@ -1,0 +1,28 @@
+{
+  "source_type": "document",
+  "source_id": "21122292278",
+  "date": "2026-10-02T09:41:01-07:00",
+  "title": "04-medical-records__created__melinda-miller-electrodiagnostics-records-2023-08-23.pdf",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 1.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "injury_treatment",
+  "importance_score": 0.3646,
+  "impact_score": 0.465,
+  "urgency_score": 0.0633,
+  "shareable_prob": 0.59,
+  "shareable_status": "review",
+  "model": "jev-1.13.0",
+  "text_source": "ocr",
+  "uploaded_at": "2026-10-02T09:41:01-07:00",
+  "date_source": "clio_upload",
+  "date_text": "08/23/2023",
+  "date_confidence": 0.35
+}

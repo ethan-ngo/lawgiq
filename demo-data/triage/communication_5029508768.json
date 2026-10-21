@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029508768",
+  "date": "2026-02-16",
+  "title": "Call to the client ahead of the conference",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.19,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.01,
+    "client_contact": 0.71,
+    "routine_admin": 0.09
+  },
+  "top_category": "client_contact",
+  "importance_score": 0.2833,
+  "impact_score": 0.23,
+  "urgency_score": 0.4433,
+  "shareable_prob": 0.75,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

@@ -1,0 +1,44 @@
+{
+  "task_id": "1417175708",
+  "task_name": "Catalogue client's own document stack",
+  "waiting": {
+    "prob": 0.33,
+    "party": null
+  },
+  "candidates_considered": 10,
+  "links": [
+    {
+      "type": "note",
+      "id": "2996995223",
+      "relation": "verifies",
+      "related_prob": 0.87,
+      "score": 0.422,
+      "signals": [
+        "topic: stack, paperwork, intake",
+        "date: 2 days apart"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996995208",
+      "relation": "verifies",
+      "related_prob": 0.72,
+      "score": 0.212,
+      "signals": [
+        "topic: paperwork, intake, photographs",
+        "date: 10 days apart"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996995118",
+      "relation": "context",
+      "related_prob": 0.64,
+      "score": 0.121,
+      "signals": [
+        "topic: intake, photographs, prior"
+      ]
+    }
+  ],
+  "model": "jev-latest"
+}

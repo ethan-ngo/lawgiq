@@ -1,0 +1,122 @@
+{
+  "task_id": "1417175738",
+  "task_name": "Attend neurological IME with client",
+  "waiting": {
+    "prob": 0.1,
+    "party": null
+  },
+  "candidates_considered": 10,
+  "links": [
+    {
+      "type": "note",
+      "id": "2996996078",
+      "relation": "scheduled_as",
+      "related_prob": 0.96,
+      "score": 0.515,
+      "signals": [
+        "topic: attended, watchdog, jack",
+        "date: 5 days apart"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996996393",
+      "relation": "produces",
+      "related_prob": 0.95,
+      "score": 0.327,
+      "signals": [
+        "topic: attended, neurological, tsao",
+        "date: 6 days apart"
+      ]
+    },
+    {
+      "type": "calendar_entry",
+      "id": "5061496583",
+      "relation": "scheduled_as",
+      "related_prob": 0.94,
+      "score": 0.451,
+      "signals": [
+        "topic: watchdog, jack, neurological",
+        "date: 0 days apart"
+      ]
+    },
+    {
+      "type": "communication",
+      "id": "5029506473",
+      "relation": "follow_up",
+      "related_prob": 0.94,
+      "score": 0.376,
+      "signals": [
+        "topic: attended, watchdog, neurological",
+        "date: 5 days apart"
+      ]
+    },
+    {
+      "type": "communication",
+      "id": "5029505633",
+      "relation": "follow_up",
+      "related_prob": 0.94,
+      "score": 0.343,
+      "signals": [
+        "topic: attend, watchdog",
+        "date: 0 days apart"
+      ]
+    },
+    {
+      "type": "communication",
+      "id": "5029506878",
+      "relation": "produces",
+      "related_prob": 0.94,
+      "score": 0.265,
+      "signals": [
+        "topic: jack, neurological, tsao",
+        "date: 13 days apart"
+      ]
+    },
+    {
+      "type": "communication",
+      "id": "5029505423",
+      "relation": "follow_up",
+      "related_prob": 0.94,
+      "score": 0.215,
+      "signals": [
+        "topic: jack, neurological, tsao",
+        "date: 20 days apart"
+      ]
+    },
+    {
+      "type": "document",
+      "id": "21122306798",
+      "relation": "produces",
+      "related_prob": 0.9,
+      "score": 0.301,
+      "signals": [
+        "topic: watchdog, jack, neurological"
+      ],
+      "page": 3
+    },
+    {
+      "type": "calendar_entry",
+      "id": "5061496538",
+      "relation": "context",
+      "related_prob": 0.59,
+      "score": 0.208,
+      "signals": [
+        "topic: watchdog",
+        "date: 5 days apart"
+      ]
+    },
+    {
+      "type": "task",
+      "id": "1417175723",
+      "relation": "context",
+      "related_prob": 0.55,
+      "score": 0.407,
+      "signals": [
+        "topic: attend, attended, watchdog",
+        "date: 5 days apart"
+      ]
+    }
+  ],
+  "model": "jev-latest"
+}

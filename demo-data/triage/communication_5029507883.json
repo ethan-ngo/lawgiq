@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029507883",
+  "date": "2025-08-10",
+  "title": "Records request: updated chiropractic ledger",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.01,
+    "medical_bills": 0.19,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.8
+  },
+  "top_category": "routine_admin",
+  "importance_score": 0.2567,
+  "impact_score": 0.23,
+  "urgency_score": 0.3367,
+  "shareable_prob": 0.87,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

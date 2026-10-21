@@ -1,0 +1,23 @@
+{
+  "source_type": "note",
+  "source_id": "2996997428",
+  "date": "2026-09-15",
+  "title": "Case posture, and what is still not done",
+  "category_probs": {
+    "incident_liability": 0.99,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.01,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "incident_liability",
+  "importance_score": 0.7919,
+  "impact_score": 0.7425,
+  "urgency_score": 0.94,
+  "shareable_prob": 0.04,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

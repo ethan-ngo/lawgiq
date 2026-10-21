@@ -1,0 +1,23 @@
+{
+  "source_type": "task",
+  "source_id": "1417175573",
+  "date": "2026-09-26",
+  "title": "Obtain updated employment and commission records from client",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.03,
+    "routine_admin": 0.97
+  },
+  "top_category": "routine_admin",
+  "importance_score": 0.484,
+  "impact_score": 0.5175,
+  "urgency_score": 0.3833,
+  "shareable_prob": 0.1,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

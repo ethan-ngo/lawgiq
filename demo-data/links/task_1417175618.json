@@ -1,0 +1,90 @@
+{
+  "task_id": "1417175618",
+  "task_name": "Confirm date of right shoulder arthroscopy with Dr. Capiola's office",
+  "waiting": {
+    "prob": 0.94,
+    "party": "McCulloch Orthopaedic Surgical Services, PLLC"
+  },
+  "candidates_considered": 10,
+  "links": [
+    {
+      "type": "note",
+      "id": "2996995973",
+      "relation": "follow_up",
+      "related_prob": 0.96,
+      "score": 0.356,
+      "signals": [
+        "contact: David Capiola",
+        "topic: office, arthroscopy, surgery"
+      ]
+    },
+    {
+      "type": "communication",
+      "id": "5029507178",
+      "relation": "follow_up",
+      "related_prob": 0.95,
+      "score": 0.378,
+      "signals": [
+        "contact: David Capiola",
+        "topic: place, office, capiola",
+        "date: 16 days apart"
+      ]
+    },
+    {
+      "type": "communication",
+      "id": "5029504628",
+      "relation": "follow_up",
+      "related_prob": 0.94,
+      "score": 0.336,
+      "signals": [
+        "contact: David Capiola",
+        "topic: recommended, arthroscopy, capiola"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996996423",
+      "relation": "context",
+      "related_prob": 0.93,
+      "score": 0.364,
+      "signals": [
+        "contact: David Capiola",
+        "topic: recommended, arthroscopy, surgery"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996996903",
+      "relation": "follow_up",
+      "related_prob": 0.9,
+      "score": 0.364,
+      "signals": [
+        "contact: David Capiola",
+        "topic: recommended, arthroscopy, surgery"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996996588",
+      "relation": "context",
+      "related_prob": 0.79,
+      "score": 0.471,
+      "signals": [
+        "contact: David Capiola",
+        "topic: place, recommended, damages"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996995943",
+      "relation": "context",
+      "related_prob": 0.72,
+      "score": 0.465,
+      "signals": [
+        "contact: David Capiola",
+        "topic: recommended, updated, damages"
+      ]
+    }
+  ],
+  "model": "jev-latest"
+}

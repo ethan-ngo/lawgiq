@@ -1,0 +1,23 @@
+{
+  "source_type": "note",
+  "source_id": "2996995973",
+  "date": "2026-07-04",
+  "title": "Right shoulder surgery still has no date",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.81,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.19
+  },
+  "top_category": "injury_treatment",
+  "importance_score": 0.295,
+  "impact_score": 0.28,
+  "urgency_score": 0.34,
+  "shareable_prob": 0.65,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

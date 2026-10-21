@@ -1,0 +1,23 @@
+{
+  "source_type": "note",
+  "source_id": "2996995673",
+  "date": "2023-12-17",
+  "title": "Records received: SportsCare Physical Therapy (Ludena)",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.92,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.08
+  },
+  "top_category": "injury_treatment",
+  "importance_score": 0.4837,
+  "impact_score": 0.575,
+  "urgency_score": 0.21,
+  "shareable_prob": 0.21,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

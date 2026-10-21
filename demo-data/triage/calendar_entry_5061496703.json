@@ -1,0 +1,23 @@
+{
+  "source_type": "calendar_entry",
+  "source_id": "5061496703",
+  "date": "2026-04-22T02:00:00-07:00",
+  "title": "LIMITATIONS DATE: Sapini",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 1.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "litigation_deadline",
+  "importance_score": 1.0,
+  "impact_score": 1.0,
+  "urgency_score": 1.0,
+  "shareable_prob": 0.24,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

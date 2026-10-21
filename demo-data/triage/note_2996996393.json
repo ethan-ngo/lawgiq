@@ -1,0 +1,23 @@
+{
+  "source_type": "note",
+  "source_id": "2996996393",
+  "date": "2026-09-13",
+  "title": "Both defence examinations attended, reports now served",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.15,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.19,
+    "client_contact": 0.0,
+    "routine_admin": 0.66
+  },
+  "top_category": "routine_admin",
+  "importance_score": 0.3771,
+  "impact_score": 0.475,
+  "urgency_score": 0.0833,
+  "shareable_prob": 0.45,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

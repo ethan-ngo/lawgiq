@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029508453",
+  "date": "2025-09-14",
+  "title": "Social Security Disability claim status",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.07,
+    "coverage_insurance": 0.06,
+    "settlement_negotiation": 0.02,
+    "litigation_deadline": 0.01,
+    "client_contact": 0.37,
+    "routine_admin": 0.47
+  },
+  "top_category": "routine_admin",
+  "importance_score": 0.5112,
+  "impact_score": 0.565,
+  "urgency_score": 0.35,
+  "shareable_prob": 0.11,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

@@ -1,0 +1,23 @@
+{
+  "source_type": "note",
+  "source_id": "2996995958",
+  "date": "2026-06-04",
+  "title": "Case evaluation",
+  "category_probs": {
+    "incident_liability": 0.03,
+    "injury_treatment": 0.02,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.01,
+    "settlement_negotiation": 0.9299999999999999,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.01
+  },
+  "top_category": "settlement_negotiation",
+  "importance_score": 0.645,
+  "impact_score": 0.75,
+  "urgency_score": 0.33,
+  "shareable_prob": 0.03,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

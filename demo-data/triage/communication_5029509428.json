@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029509428",
+  "date": "2025-01-10",
+  "title": "No-fault benefits exhausted",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 1.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "coverage_insurance",
+  "importance_score": 0.5808,
+  "impact_score": 0.75,
+  "urgency_score": 0.0733,
+  "shareable_prob": 0.77,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

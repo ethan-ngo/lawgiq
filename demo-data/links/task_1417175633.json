@@ -1,0 +1,35 @@
+{
+  "task_id": "1417175633",
+  "task_name": "Pay Montefiore Nyack records invoice and re-request",
+  "waiting": {
+    "prob": 0.14,
+    "party": null
+  },
+  "candidates_considered": 10,
+  "links": [
+    {
+      "type": "expense",
+      "id": "8139923423",
+      "relation": "produces",
+      "related_prob": 0.9,
+      "score": 0.56,
+      "signals": [
+        "contact: Montefiore Nyack Hospital",
+        "topic: reproduction, emergency, nyack",
+        "date: 0 days apart"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996996228",
+      "relation": "context",
+      "related_prob": 0.73,
+      "score": 0.362,
+      "signals": [
+        "contact: Montefiore Nyack Hospital",
+        "topic: emergency, nyack, montefiore"
+      ]
+    }
+  ],
+  "model": "jev-latest"
+}

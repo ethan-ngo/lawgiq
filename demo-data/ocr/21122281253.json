@@ -1,0 +1,15 @@
+{
+  "source_type": "document",
+  "source_id": "21122281253",
+  "name": "01-intake__created__photo-id.pdf",
+  "matter_id": "1811195723",
+  "created_at": "2026-10-02T09:40:24-07:00",
+  "pages": [
+    {
+      "page": 1,
+      "text": "| cond a Gonaky\n\n10/08/2020",
+      "method": "tesseract",
+      "char_count": 27
+    }
+  ]
+}

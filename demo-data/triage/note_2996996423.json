@@ -1,0 +1,23 @@
+{
+  "source_type": "note",
+  "source_id": "2996996423",
+  "date": "2026-09-18",
+  "title": "The second surgery is now the biggest open question on this file",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.77,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.01,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.22
+  },
+  "top_category": "injury_treatment",
+  "importance_score": 0.6337,
+  "impact_score": 0.725,
+  "urgency_score": 0.36,
+  "shareable_prob": 0.12,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

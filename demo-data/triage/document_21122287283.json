@@ -1,0 +1,28 @@
+{
+  "source_type": "document",
+  "source_id": "21122287283",
+  "date": "2025-09-30",
+  "title": "03-discovery__doc-40__defendants-response-demand.pdf",
+  "category_probs": {
+    "incident_liability": 0.14,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.01,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.85,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "litigation_deadline",
+  "importance_score": 0.4819,
+  "impact_score": 0.5225,
+  "urgency_score": 0.36,
+  "shareable_prob": 0.16,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0",
+  "text_source": "ocr",
+  "uploaded_at": "2026-10-02T09:40:42-07:00",
+  "date_source": "document_text",
+  "date_text": "September 30, 2025",
+  "date_confidence": 0.78
+}

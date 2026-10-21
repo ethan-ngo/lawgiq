@@ -1,0 +1,54 @@
+{
+  "task_id": "1417175753",
+  "task_name": "File Medicaid lien acknowledgment",
+  "waiting": {
+    "prob": 0.22,
+    "party": null
+  },
+  "candidates_considered": 10,
+  "links": [
+    {
+      "type": "note",
+      "id": "2996996723",
+      "relation": "follow_up",
+      "related_prob": 0.79,
+      "score": 0.282,
+      "signals": [
+        "topic: asserted, lien, file"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996995823",
+      "relation": "context",
+      "related_prob": 0.74,
+      "score": 0.458,
+      "signals": [
+        "topic: asserted, lien, state",
+        "date: 0 days apart"
+      ]
+    },
+    {
+      "type": "communication",
+      "id": "5029509593",
+      "relation": "follow_up",
+      "related_prob": 0.65,
+      "score": 0.308,
+      "signals": [
+        "topic: asserted, lien, state"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996995853",
+      "relation": "context",
+      "related_prob": 0.55,
+      "score": 0.16,
+      "signals": [
+        "topic: lien, medicaid",
+        "date: 15 days apart"
+      ]
+    }
+  ],
+  "model": "jev-latest"
+}

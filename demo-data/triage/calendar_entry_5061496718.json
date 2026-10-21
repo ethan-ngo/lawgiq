@@ -1,0 +1,23 @@
+{
+  "source_type": "calendar_entry",
+  "source_id": "5061496718",
+  "date": "2026-10-10T03:30:00-07:00",
+  "title": "Call to McCulloch Orthopaedic re right shoulder surgical date",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.52,
+    "medical_bills": 0.03,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.45
+  },
+  "top_category": "injury_treatment",
+  "importance_score": 0.4773,
+  "impact_score": 0.4675,
+  "urgency_score": 0.5067,
+  "shareable_prob": 0.63,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

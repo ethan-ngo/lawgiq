@@ -1,0 +1,23 @@
+{
+  "source_type": "note",
+  "source_id": "2996995703",
+  "date": "2024-01-08",
+  "title": "No-fault exhausted",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.04,
+    "coverage_insurance": 0.96,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "coverage_insurance",
+  "importance_score": 0.6458,
+  "impact_score": 0.75,
+  "urgency_score": 0.3333,
+  "shareable_prob": 0.12,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

@@ -1,0 +1,68 @@
+{
+  "task_id": "1417175438",
+  "task_name": "By medical provider: Advanced Rockland Chiropractic Offices, P.C. - Current daily notes and itemised bill to date",
+  "waiting": {
+    "prob": 0.86,
+    "party": "Advanced Rockland Chiropractic Offices, P.C."
+  },
+  "candidates_considered": 10,
+  "links": [
+    {
+      "type": "note",
+      "id": "2996996543",
+      "relation": "context",
+      "related_prob": 0.9,
+      "score": 0.501,
+      "signals": [
+        "contact: Advanced Rockland Chiropractic Offices, P.C.",
+        "topic: codes, figure, last",
+        "date: 12 days apart"
+      ]
+    },
+    {
+      "type": "note",
+      "id": "2996996228",
+      "relation": "context",
+      "related_prob": 0.71,
+      "score": 0.302,
+      "signals": [
+        "contact: Advanced Rockland Chiropractic Offices, P.C.",
+        "topic: figure, specials, advanced"
+      ]
+    },
+    {
+      "type": "document",
+      "id": "21122296913",
+      "relation": "produces",
+      "related_prob": 0.62,
+      "score": 0.275,
+      "signals": [
+        "contact: Advanced Rockland Chiropractic Offices, P.C."
+      ],
+      "page": 2
+    },
+    {
+      "type": "document",
+      "id": "21122296913",
+      "relation": "produces",
+      "related_prob": 0.6,
+      "score": 0.275,
+      "signals": [
+        "contact: Advanced Rockland Chiropractic Offices, P.C."
+      ],
+      "page": 1
+    },
+    {
+      "type": "document",
+      "id": "21122288738",
+      "relation": "produces",
+      "related_prob": 0.51,
+      "score": 0.275,
+      "signals": [
+        "contact: Advanced Rockland Chiropractic Offices, P.C."
+      ],
+      "page": 2
+    }
+  ],
+  "model": "jev-latest"
+}

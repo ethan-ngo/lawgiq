@@ -1,0 +1,23 @@
+{
+  "source_type": "communication",
+  "source_id": "5029507628",
+  "date": "2025-05-24",
+  "title": "Call to Claims Service Bureau re scope of employment",
+  "category_probs": {
+    "incident_liability": 0.36,
+    "injury_treatment": 0.0,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.64,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "coverage_insurance",
+  "importance_score": 0.3519,
+  "impact_score": 0.4325,
+  "urgency_score": 0.11,
+  "shareable_prob": 0.2,
+  "shareable_status": "internal",
+  "model": "jev-1.13.0"
+}

@@ -1,0 +1,23 @@
+{
+  "source_type": "calendar_entry",
+  "source_id": "5061496538",
+  "date": "2026-09-02T06:00:00-07:00",
+  "title": "Orthopedic IME, Dr. Emmanuel Hostin",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.26,
+    "medical_bills": 0.0,
+    "coverage_insurance": 0.01,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.26,
+    "client_contact": 0.0,
+    "routine_admin": 0.47
+  },
+  "top_category": "routine_admin",
+  "importance_score": 0.5617,
+  "impact_score": 0.52,
+  "urgency_score": 0.6867,
+  "shareable_prob": 0.54,
+  "shareable_status": "review",
+  "model": "jev-1.13.0"
+}

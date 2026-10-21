@@ -1,0 +1,28 @@
+{
+  "source_type": "document",
+  "source_id": "21122300948",
+  "date": "2023-09-20",
+  "title": "05-medical-bills__created__melinda-miller-electrodiagnostics-itemized-bill-2023-09-20.pdf",
+  "category_probs": {
+    "incident_liability": 0.0,
+    "injury_treatment": 0.0,
+    "medical_bills": 1.0,
+    "coverage_insurance": 0.0,
+    "settlement_negotiation": 0.0,
+    "litigation_deadline": 0.0,
+    "client_contact": 0.0,
+    "routine_admin": 0.0
+  },
+  "top_category": "medical_bills",
+  "importance_score": 0.2819,
+  "impact_score": 0.3725,
+  "urgency_score": 0.01,
+  "shareable_prob": 0.57,
+  "shareable_status": "review",
+  "model": "jev-1.13.0",
+  "text_source": "ocr",
+  "uploaded_at": "2026-10-02T09:41:28-07:00",
+  "date_source": "document_text",
+  "date_text": "09/20/2023",
+  "date_confidence": 1.0
+}
