@@ -3,7 +3,7 @@ import type { CaseEvent } from "./events";
 /**
  * Rules-based significance ranking. Each rule names WHY an event matters, so
  * every ranked event carries a human reason ("Shifted liability", "Surgery").
- * Jev's importance score (scripts/triage.py, 0–1) adds up to JEV_WEIGHT on
+ * Jev's importance score (pipeline/triage.py, 0–1) adds up to JEV_WEIGHT on
  * top, so the model breaks ties and lifts records the rules under-rate; the
  * rules stay the deterministic baseline and the fallback when triage hasn't run.
  */

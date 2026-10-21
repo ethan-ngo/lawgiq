@@ -3,12 +3,12 @@
 Clio access is READ ONLY: this module only ever issues GET requests to Clio.
 
 Usage:
-  python scripts/triage.py                      # matter matching "Sapini"
-  python scripts/triage.py --query Sapini --force
-  python scripts/triage.py --matter-id 123456 --ocr-dir data/ocr
+  python pipeline/triage.py                      # matter matching "Sapini"
+  python pipeline/triage.py --query Sapini --force
+  python pipeline/triage.py --matter-id 123456 --ocr-dir data/ocr
 
-Document text comes from the OCR pipeline (python ocr_pipeline.py -> data/ocr/{document_id}.json).
-Results go to data/triage/{source_type}_{source_id}.json; ui/dashboard.py displays them.
+Document text comes from the OCR pipeline (python pipeline/ocr_pipeline.py -> data/ocr/{document_id}.json).
+Results go to data/triage/{source_type}_{source_id}.json; the dashboard reads them via lib/clio/pipeline.ts.
 
 Env (.env): CLIO_TOKEN, MATTER_ID, CLIO_BASE_URL (default https://app.clio.com),
             TYPESAFE_API_KEY, JEV_BASE_URL, JEV_MODEL

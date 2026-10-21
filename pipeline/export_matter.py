@@ -1,13 +1,13 @@
 """Export one Clio matter's records to data/clio/matter.json for the Next.js dashboard.
 
-Clio access is READ ONLY: only GET requests are made (see clio_client.py).
+Clio access is READ ONLY: only GET requests are made (see pipeline/clio_client.py).
 
 Usage:
-  python scripts/export_matter.py                 # matter from MATTER_ID in .env, else search "Sapini"
-  python scripts/export_matter.py --matter-id 123
+  python pipeline/export_matter.py                 # matter from MATTER_ID in .env, else search "Sapini"
+  python pipeline/export_matter.py --matter-id 123
 
-The dashboard (npm run dev) reads this file together with data/triage (scripts/triage.py)
-and data/ocr (ocr_pipeline.py). Raw Clio JSON is written as-is; lib/pipeline normalises it.
+The dashboard (npm run dev) reads this file together with data/triage (pipeline/triage.py)
+and data/ocr (pipeline/ocr_pipeline.py). Raw Clio JSON is written as-is; lib/pipeline normalises it.
 """
 import argparse
 import json
@@ -20,7 +20,6 @@ from datetime import datetime, timezone
 from dotenv import load_dotenv
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT))
 from clio_client import Clio  # noqa: E402
 
 OUT = ROOT / "data" / "clio" / "matter.json"

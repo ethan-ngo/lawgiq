@@ -14,7 +14,7 @@ import { cn } from "@/lib/utils";
  * Every Clio task on one board: Overdue, Waiting on others, Upcoming, Done.
  * Clicking a card opens everything related to it (calendar entries, notes,
  * emails and calls, other tasks, expenses, document pages), grouped by how it
- * relates. Links come from scripts/link_tasks.py: code proposes, Jev confirms.
+ * relates. Links come from pipeline/link_tasks.py: code proposes, Jev confirms.
  * Read-only: nothing here writes to Clio.
  */
 
@@ -186,7 +186,7 @@ function TaskDetail({ t, linked, onClose }: { t: BoardTask; linked: boolean; onC
         </div>
       ) : (
         <p className="mt-4 border-t border-line pt-4 text-[13px] text-ink-soft">
-          {linked ? "No related records found for this task." : "Related records appear after running python scripts/link_tasks.py."}
+          {linked ? "No related records found for this task." : "Related records appear after running python pipeline/link_tasks.py."}
         </p>
       )}
       {groups.length ? (

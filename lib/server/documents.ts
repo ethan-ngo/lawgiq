@@ -6,7 +6,7 @@ import { readShare } from "../db";
 import { getClientView, getProviderView } from "./case";
 
 /**
- * Serves the Clio documents the pipeline downloaded (data/raw, from ocr_pipeline.py via
+ * Serves the Clio documents the pipeline downloaded (data/raw, from pipeline/ocr_pipeline.py via
  * GET /documents/{id}/download) and their OCR pages (data/ocr), scoped by who is asking.
  *
  * The firm view may open any document on the matter. A provider, the client, or a

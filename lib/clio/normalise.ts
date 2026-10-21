@@ -15,7 +15,7 @@ import type {
 
 /**
  * Normalises the raw Clio Manage API v4 records written by
- * scripts/export_matter.py (data/clio/matter.json) into a MatterBundle.
+ * pipeline/export_matter.py (data/clio/matter.json) into a MatterBundle.
  * The Python pipeline is the only thing that talks to Clio, and only with GET.
  */
 

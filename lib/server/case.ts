@@ -48,7 +48,7 @@ export interface LoadedBundle {
 
 /**
  * Reads the pipeline's files under data/ on every call (they are small and
- * local). A forced sync first re-runs scripts/export_matter.py (Clio GET only).
+ * local). A forced sync first re-runs pipeline/export_matter.py (Clio GET only).
  * If reading fails, the last good snapshot is served, marked stale.
  */
 export async function loadBundle(opts: { force?: boolean } = {}): Promise<LoadedBundle> {

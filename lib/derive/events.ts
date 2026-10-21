@@ -26,7 +26,7 @@ export interface CaseEvent {
   createdAt?: string;
   /** Other records saying the same thing (exact duplicates collapsed into this one). */
   duplicates: SourceRef[];
-  /** Jev triage for this record (scripts/triage.py), when it has been scored. */
+  /** Jev triage for this record (pipeline/triage.py), when it has been scored. */
   jev: TriageScore | null;
 }
 

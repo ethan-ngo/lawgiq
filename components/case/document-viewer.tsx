@@ -9,7 +9,7 @@ type Page = { page: number; text: string; method: string; charCount: number };
 
 /**
  * The Clio document itself, embedded in the source drawer. The PDF comes from
- * /api/documents/<id> (the file ocr_pipeline.py downloaded from Clio), opened at
+ * /api/documents/<id> (the file pipeline/ocr_pipeline.py downloaded from Clio), opened at
  * the page the citation points to; the extracted text for that page sits below.
  * `scope` carries the viewer's role so the server only serves what that view cites.
  */
