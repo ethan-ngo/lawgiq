@@ -18,6 +18,7 @@ pipeline
 requirements.txt
 
 docs
+infra
 coverage
 Dockerfile
 docker-compose.yml

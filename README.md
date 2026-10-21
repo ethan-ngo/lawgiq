@@ -56,10 +56,47 @@ docker compose up --build                   # open http://localhost:3000
 
 ## CI/CD
 
+Live at **https://lawgiq-48061794111.us-central1.run.app** (Google Cloud Run; the first visit after a quiet spell takes a few seconds to start).
+
 `.github/workflows/ci.yml` runs on every pull request and push to `main`:
 
+```
+check ─────► image ─────────────────────────► deploy (main only)
+lint, tsc,   build → Trivy scan → push to     keyless auth (OIDC) → Cloud Run
+vitest       ghcr.io/<owner>/lawgiq           by image digest → /api/health smoke test
+terraform: fmt -check + validate
+```
+
 1. **check**: `npm ci`, lint, `tsc --noEmit`, and the vitest suite against `demo-data/`.
-2. **image**: builds the Docker image (with GitHub Actions layer caching). On `main` it pushes to `ghcr.io/<owner>/lawgiq`, tagged `latest` and `sha-<commit>`.
+2. **terraform**: `terraform fmt -check` and `validate` on `infra/`.
+3. **image**: builds the Docker image (GitHub Actions layer cache), fails on critical, fixable vulnerabilities found by Trivy, and on `main` pushes it to GHCR tagged `latest` and `sha-<commit>`.
+4. **deploy**: on `main`, authenticates to Google Cloud with Workload Identity Federation (no stored keys: GitHub's OIDC token is exchanged for short-lived credentials, and only `main` of this repo is trusted), deploys the pushed digest to Cloud Run, and fails if `/api/health` doesn't come up. Each deploy is recorded under the repo's **production** environment.
+
+Third-party actions are pinned to commit SHAs.
+
+## Infrastructure (Terraform)
+
+Everything in Google Cloud is defined in [`infra/`](infra):
+
+| File | Resources |
+| --- | --- |
+| `apis.tf` | The project's enabled APIs |
+| `registry.tf` | Artifact Registry remote repository proxying `ghcr.io` (Cloud Run can't pull from GHCR directly), with cleanup policies to stay in the free tier |
+| `run.tf` | Cloud Run service (scale 0–1, 512 MiB, health probes), its no-permission runtime identity, public access |
+| `github.tf` | Workload Identity pool and provider for GitHub Actions, the deployer service account and its roles |
+| `budget.tf` | $1 monthly budget alert |
+| `imports.tf` | Adopts the resources first created by hand with `gcloud` |
+
+State is stored in the `gs://lawgiq-626002-tfstate` bucket (versioned), the one resource created by hand. Terraform owns the service's configuration; CI owns which image it runs (`ignore_changes` on the image).
+
+```bash
+cd infra
+cp terraform.tfvars.example terraform.tfvars    # set billing_account
+gcloud auth application-default login
+terraform init
+terraform plan
+terraform apply
+```
 
 ## The app
 
@@ -106,4 +143,5 @@ tests/                 derive, headline and task-board tests
 scripts/               dev tools: screenshot capture, real-input smoke test, derive inspector (npx tsx scripts/inspect.ts)
 docs/                  product brief, design decisions, screenshots
 demo-data/             sample pipeline output baked into the Docker image
+infra/                 Terraform for the Google Cloud deployment
 ```

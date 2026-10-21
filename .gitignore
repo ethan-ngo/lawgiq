@@ -48,3 +48,10 @@ __pycache__/
 
 # Case documents, OCR text and triage output (regenerate with pipeline/ocr_pipeline.py + pipeline/triage.py)
 data/
+
+# terraform (state lives in GCS; the lock file is committed)
+infra/.terraform/
+*.tfstate
+*.tfstate.*
+infra/terraform.tfvars
+infra/tfplan
