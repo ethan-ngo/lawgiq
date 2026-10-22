@@ -2,6 +2,8 @@
 
 Swans x Law Di Gras 2026 Applied AI Hackathon (Won 3rd Place)
 
+**Live demo:** https://lawgiq-48061794111.us-central1.run.app (read-only, runs on sample data)
+
 An AI case dashboard for a personal-injury firm. It digests one Clio Manage matter (Sapini) for three audiences: the firm (what matters most, what is due), the client's treating medical providers (only what is safe to share) and the client.
 
 Clio is read only: every script issues GET requests only. Nothing about the case is in this repo. All data comes from the live Clio account through the Python pipeline and is stored locally under `data/` (gitignored).
