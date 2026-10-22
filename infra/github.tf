@@ -40,6 +40,14 @@ resource "google_project_iam_member" "deployer_run" {
   member  = google_service_account.deployer.member
 }
 
+# ...from images in the ghcr proxy (gcloud run deploy resolves the image as the caller)...
+resource "google_artifact_registry_repository_iam_member" "deployer_reads_images" {
+  repository = google_artifact_registry_repository.ghcr.name
+  location   = google_artifact_registry_repository.ghcr.location
+  role       = "roles/artifactregistry.reader"
+  member     = google_service_account.deployer.member
+}
+
 # ...that run as the runtime identity.
 resource "google_service_account_iam_member" "deployer_acts_as_runtime" {
   service_account_id = google_service_account.runtime.name
