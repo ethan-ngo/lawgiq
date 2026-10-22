@@ -1,0 +1,3 @@
+# Copy to terraform.tfvars (gitignored) and fill in.
+project_id      = "lawgiq-626002"
+billing_account = "XXXXXX-XXXXXX-XXXXXX"
